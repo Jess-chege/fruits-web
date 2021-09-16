@@ -1,0 +1,67 @@
+body{
+    background-image: url(./images/sell.jpg);
+   
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    /*background-color: black;*/
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+.form-inline {
+    max-width: 64em;
+    padding: 10%; 
+    /* text-transform: ; */
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: right;
+    display: block;
+    justify-content: center;
+}
+
+
+
+.text{
+    margin:1%;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.form-control{
+    font-weight: bolder;
+}
+
+label{
+    color: white;
+    font-size: 1.5em;
+}
